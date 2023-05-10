@@ -59,7 +59,6 @@ class RecipeViewSet(ModelViewSet):
         if request.method == 'POST':
             return self.add_to(Favourite, request.user, pk)
 
-
     @action(
         detail=True,
         methods=['post', 'delete'],
@@ -68,7 +67,6 @@ class RecipeViewSet(ModelViewSet):
     def shopping_cart(self, request, pk):
         if request.method == 'POST':
             return self.add_to(ShoppingCart, request.user, pk)
-
 
     def add_to(self, model, user, pk):
         if model.objects.filter(user=user, recipe__id=pk).exists():
