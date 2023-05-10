@@ -1,4 +1,4 @@
-name: Foodgram Workflow
+name: Django-app workflow
 
 on:
   push:
