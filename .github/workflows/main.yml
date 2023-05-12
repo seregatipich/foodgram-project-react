@@ -65,8 +65,8 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
             sudo docker compose down
-            sudo docker pull abramow79/foodgram_frontend:latest
-            sudo docker pull abramow79/foodgram_backend:latest
+            sudo docker pull seregatipich/foodgram_frontend:latest
+            sudo docker pull seregatipich/foodgram_backend:latest
             sudo docker compose rm backend
             sudo rm .env
             touch .env
