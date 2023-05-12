@@ -1,11 +1,11 @@
-FROM python:3.8-slim
+FROM python:3.7-slim
 
 WORKDIR /app
 
 COPY requirements.txt .
 
-RUN python -m pip install --upgrade pip
-RUN pip install -r requirements.txt --no-cache-dir
+RUN apt-get update && apt-get upgrade -y && \
+    pip install --upgrade pip && pip install -r requirements.txt
 
 COPY . .
 
