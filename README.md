@@ -1,6 +1,7 @@
 # praktikum_new_diplom
 
-Проект доступен по адресу: 158.160.44.238
+Проект доступен по адресу: 158.160.98.4
+Суперюзер (login:password): superuser@user.com:Zz!291203
 # Социальная сеть Foodgram
 ![example workflow](https://github.com/seregatipich/foodgram-project-react/actions/workflows/main.yml/badge.svg)
 [![Python](https://img.shields.io/badge/-Python-464646?style=flat&logo=Python&logoColor=ffffff&color=043A6B)](https://www.python.org/)
