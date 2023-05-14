@@ -121,7 +121,7 @@ python manage.py runserver
 
 ### Документация к API доступна после запуска
 ```url
-http://158.160.44.238/api/docs/
+/api/docs/
 ```
 
 Автор: Sergei Poluektov.
